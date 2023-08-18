@@ -1,0 +1,224 @@
+body {
+    font-family:
+        'Rubik', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+section {
+    padding: 50px;
+}
+
+section:nth-of-type(2n) {
+    background-color: rgb(241, 241, 241);
+}
+
+header {
+    background-color: darkblue;
+    border: solid;
+    border-color: black;
+    color: white;
+}
+
+.début {
+    margin-bottom: 0px;
+}
+
+.timeline {
+    position: relative;
+    overflow: auto;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #dddddd;
+    left: 50%;
+}
+
+.timeline h2 {
+    background: #dddddd;
+    max-width: 6em;
+    margin: 0 auto 1em;
+    padding: 0.5em;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+.timeline ul {
+    list-style: none;
+    padding-left: 0;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.timeline li {
+    background: #dddddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    width: 42%;
+}
+
+.timeline li:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 1em solid #dddddd;
+    border-left: 1em solid transparent;
+    position: absolute;
+    left: -1em;
+    top: 0;
+}
+
+.timeline h3 {
+    margin-top: 0;
+}
+
+.timeline time {
+    font-style: italic;
+}
+
+.timeline li:nth-child(even) {
+    float: right;
+    margin-top: 2em;
+}
+
+.timeline li:nth-child(odd) {
+    float: left;
+}
+
+.timeline li:nth-child(odd):before {
+    border-top: 1em solid #dddddd;
+    border-right: 1em solid transparent;
+    right: -1em;
+    left: auto;
+}
+
+.timeline li:nth-of-type(2n + 1) {
+    clear: both;
+}
+
+.maitrise {
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    background-color: rgb(13, 184, 24);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    margin: 30px;
+    flex: 1;
+}
+
+.encours {
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    margin: 30px;
+    flex: 1;
+}
+
+.alignement {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aligne {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Soft {
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    background-color: skyblue;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 50px;
+    margin: 15px;
+    flex: 1;
+    text-align: center;
+
+}
+
+.présentation {
+    font-size: 20px;
+}
+
+.hobbies {
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+}
+
+.sport {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.jeux {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.cuisine {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.voyage {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.content-footer {
+    display: flex;
+    font-size: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.titre-infos {
+    font-size: 30px;
+}
+
+footer {
+    background-color: darkblue;
+    border: solid;
+    border-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
